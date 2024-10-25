@@ -1,0 +1,21 @@
+/* example of a css module */
+.navLinkWrapper {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.navLink {
+  padding: 1rem 1rem 1rem 0;
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+/* hover intentionally specified after visited */
+.navLink:hover {
+  color: grey;
+  text-decoration: underline;
+}
